@@ -1,0 +1,28 @@
+{
+  "china_cbec": {
+    "cagr_pct_2018_2024": 16.993923,
+    "export_share_pct_2024": 79.491726,
+    "growth_multiple_2018_2024": 2.564365,
+    "import_share_pct_2024": 20.508274,
+    "unit": "RMB 100 million"
+  },
+  "ipc_consumer_reach": {
+    "change_percentage_points_2016_2023": 11,
+    "full_survey_markets_2023": 41,
+    "full_survey_sample_2023": 32510,
+    "measure_definition": "Share of surveyed cross-border shoppers whose latest purchase came from China.",
+    "not_sales_market_share": true,
+    "trend_economies": 24,
+    "trend_sample_2023": 23005
+  },
+  "schema_version": 1,
+  "unctad_business_ecommerce": {
+    "coverage_economies": 43,
+    "coverage_global_exports_pct_approx": 73,
+    "coverage_global_gdp_pct_approx": 76,
+    "source": "UNCTAD/DTL/ECDE/2024/3, Figure 2 (same total as Figure 1)",
+    "unit": "US$ trillion",
+    "value_2021_trillion_usd_approx": 24.5,
+    "value_2022_trillion_usd_approx_indicative": 26.9
+  }
+}

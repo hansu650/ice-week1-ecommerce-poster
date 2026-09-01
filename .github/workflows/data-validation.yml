@@ -1,0 +1,32 @@
+name: Data validation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Check deterministic rebuild
+        run: python scripts/build_all.py --check
+
+      - name: Validate processed data
+        run: python scripts/validate_processed_data.py
+
+      - name: Run tests
+        run: python -m pytest -q

@@ -1,0 +1,2 @@
+pdfplumber>=0.11.9,<0.12
+pytest>=8,<10

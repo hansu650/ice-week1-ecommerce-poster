@@ -6,3 +6,8 @@
 *.txt text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
+
+# Preserve the exact checked final-delivery bytes and suppress enormous diffs.
+poster/final/*.svg binary
+poster/final/*.pdf binary
+poster/final/*.png binary

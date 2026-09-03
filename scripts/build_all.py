@@ -51,6 +51,7 @@ def build(output_dir: Path, *, verify_unctad_pdf: Path | None = None) -> dict[st
     summary_path.write_text(
         json.dumps(summary, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
+        newline="\n",
     )
     return summary
 

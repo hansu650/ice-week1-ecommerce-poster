@@ -1,0 +1,421 @@
+{
+  "generatedAt": "2026-09-03T08:50:44.259Z",
+  "output": {
+    "svg": "W1_Layout_A_Integrated_Final_4960.svg",
+    "pdf": "W1_Layout_A_Integrated_Final_4960.pdf",
+    "preview": "W1_Layout_A_Integrated_Final_4960_preview.png",
+    "reviewPreview": "W1_Layout_A_Integrated_Final_4960_review_preview.png",
+    "grayscale": "W1_Layout_A_Integrated_Final_4960_grayscale_check.png",
+    "reviewGrayscale": "W1_Layout_A_Integrated_Final_4960_review_grayscale.png",
+    "manifest": "W1_Layout_A_Integrated_Final_4960.manifest.json",
+    "viewBox": "0 0 4960 3600",
+    "printPageMm": {
+      "width": 1189,
+      "height": 862.984
+    }
+  },
+  "checks": {
+    "exactCanvas": true,
+    "widthLockedAt4960": true,
+    "layoutAFourStageReadingPath": true,
+    "fourNumberedModuleConnectors": true,
+    "fourUniformThirtyUnitModuleArrows": true,
+    "consistentModuleArrowGeometry": true,
+    "arrowheadNearlyMatchesBodyWidth": true,
+    "connectorLayerAbovePosterContent": true,
+    "allModuleArrowsInsideClearCorridors": true,
+    "uniformStageBadgeSize": true,
+    "fourCompletedTeamModulesReused": true,
+    "threeDerivedChartsFromArchivedData": true,
+    "threeReviewedAdvancedFiguresIntegrated": true,
+    "eightDistinctRealStoryPhotos": true,
+    "approximatelyFifteenVisibleRealPhotos": true,
+    "noRepeatedDirectPhotoSources": true,
+    "noRepeatedVisiblePhotoFiles": true,
+    "noDirectPhotoRepeatedInsideReusedModules": true,
+    "noRepeatedImagesInsideReusedModules": true,
+    "noImageBlockOverlap": true,
+    "fourCulturalHeaderIcons": true,
+    "twoVectorSchoolLogos": true,
+    "alignedEvenlySpacedHeaderVisuals": true,
+    "mastheadVisualRowRaised": true,
+    "continuousTitleRule": true,
+    "sourceModuleMetricsIntact": true,
+    "noDuplicateOuterMetricCards": true,
+    "githubQrEmbedded": true,
+    "expandedReferenceList": true,
+    "threeFooterPhotoThumbnails": true,
+    "noPlaceholders": true,
+    "noExternalSvgDependencies": true,
+    "noTextClipping": true,
+    "englishOnlySvgText": true,
+    "grayscaleArtifactGenerated": true
+  },
+  "diagnostics": {
+    "canvas": {
+      "width": 4960,
+      "height": 3600
+    },
+    "sectionCount": 4,
+    "sectionIds": [
+      "stage-1",
+      "stage-2",
+      "stage-3",
+      "stage-4"
+    ],
+    "photoCount": 8,
+    "uniquePhotoCount": 8,
+    "reusedModuleCount": 4,
+    "reusedModuleIds": [
+      "tao-market-scale",
+      "wang-consumer-reach",
+      "qin-rcep-evidence",
+      "song-global-industry"
+    ],
+    "derivedChartCount": 3,
+    "reviewedFigureCount": 3,
+    "layoutArrowCount": 4,
+    "numberedModuleConnectorCount": 4,
+    "moduleArrows": [
+      {
+        "id": "journey-to-trade",
+        "x": 1159,
+        "y": 1030,
+        "width": 30,
+        "height": 0,
+        "length": 30,
+        "orientation": "horizontal",
+        "strokeWidth": 6
+      },
+      {
+        "id": "trade-to-region",
+        "x": 3034,
+        "y": 1115,
+        "width": 30,
+        "height": 0,
+        "length": 30,
+        "orientation": "horizontal",
+        "strokeWidth": 6
+      },
+      {
+        "id": "region-to-industry",
+        "x": 3990,
+        "y": 1607,
+        "width": 0,
+        "height": 30,
+        "length": 30,
+        "orientation": "vertical",
+        "strokeWidth": 6
+      },
+      {
+        "id": "synthesis-to-figures",
+        "x": 4760,
+        "y": 2703,
+        "width": 0,
+        "height": 30,
+        "length": 30,
+        "orientation": "vertical",
+        "strokeWidth": 6
+      }
+    ],
+    "connectorClearances": [
+      {
+        "id": "journey-to-trade",
+        "axis": "x",
+        "corridorMin": 1144,
+        "corridorMax": 1204,
+        "start": 1159,
+        "end": 1189,
+        "padding": 3,
+        "clear": true
+      },
+      {
+        "id": "trade-to-region",
+        "axis": "x",
+        "corridorMin": 3022,
+        "corridorMax": 3074,
+        "start": 3034,
+        "end": 3064,
+        "padding": 3,
+        "clear": true
+      },
+      {
+        "id": "region-to-industry",
+        "axis": "y",
+        "corridorMin": 1604,
+        "corridorMax": 1640,
+        "start": 1607,
+        "end": 1637,
+        "padding": 3,
+        "clear": true
+      },
+      {
+        "id": "synthesis-to-figures",
+        "axis": "y",
+        "corridorMin": 2700,
+        "corridorMax": 2740,
+        "start": 2703,
+        "end": 2733,
+        "padding": 3,
+        "clear": true
+      }
+    ],
+    "stageBadgeRadii": [
+      13,
+      13,
+      13,
+      13
+    ],
+    "moduleArrowheadStrokeWidth": 5.2,
+    "culturalIconCount": 4,
+    "schoolLogoCount": 2,
+    "headerVisuals": [
+      {
+        "id": "hubu",
+        "x": 204,
+        "y": 186.35,
+        "width": 176,
+        "height": 175.3,
+        "centerY": 274
+      },
+      {
+        "id": "yellow-crane-tower",
+        "x": 480.04,
+        "y": 186.5,
+        "width": 232.76,
+        "height": 175.26,
+        "centerY": 274.13
+      },
+      {
+        "id": "hot-dry-noodles",
+        "x": 812.78,
+        "y": 186,
+        "width": 168,
+        "height": 175.98,
+        "centerY": 273.99
+      },
+      {
+        "id": "manchester-mill",
+        "x": 3586,
+        "y": 186.41,
+        "width": 219.44,
+        "height": 175.18,
+        "centerY": 274
+      },
+      {
+        "id": "manchester-bee",
+        "x": 3905.56,
+        "y": 186.37,
+        "width": 185.24,
+        "height": 175.37,
+        "centerY": 274.06
+      },
+      {
+        "id": "mmu",
+        "x": 4190.79,
+        "y": 187,
+        "width": 489.61,
+        "height": 174,
+        "centerY": 274
+      }
+    ],
+    "headerOuterGaps": [
+      100.04,
+      99.98,
+      100.12,
+      99.99
+    ],
+    "titleRuleCount": 1,
+    "titleRuleLength": 1540,
+    "connectorLayerIsTopmost": true,
+    "githubQrCount": 1,
+    "referenceCount": 7,
+    "footerPhotoCount": 3,
+    "directPhotoSourceCount": 11,
+    "uniqueDirectPhotoSourceCount": 11,
+    "repeatedDirectPhotoSources": [],
+    "imageBlockCount": 15,
+    "imageBlockOverlaps": [],
+    "embeddedImageCount": 15,
+    "pathCount": 96,
+    "placeholderCount": 0,
+    "factCounts": {},
+    "textCount": 101,
+    "clipping": [],
+    "externalReferences": [],
+    "metricAudit": [
+      {
+        "id": "trade-final-total",
+        "module": "tao_market",
+        "needle": "2.71",
+        "count": 1
+      },
+      {
+        "id": "trade-export-share",
+        "module": "tao_market",
+        "needle": "79.5%",
+        "count": 1
+      },
+      {
+        "id": "rcep-panel-scope",
+        "module": "qin_rcep",
+        "needle": "110 country-year observations across 11 partners.",
+        "count": 1
+      },
+      {
+        "id": "consumer-start",
+        "module": "wang_consumer",
+        "needle": "26%",
+        "count": 1
+      },
+      {
+        "id": "consumer-end",
+        "module": "wang_consumer",
+        "needle": "37%",
+        "count": 1
+      },
+      {
+        "id": "consumer-change",
+        "module": "wang_consumer",
+        "needle": "+11 pp",
+        "count": 1
+      },
+      {
+        "id": "global-scope",
+        "module": "song_global",
+        "needle": "43 economies cover about three quarters of global GDP and exports",
+        "count": 1
+      },
+      {
+        "id": "global-sales-start",
+        "module": "song_global",
+        "needle": "ALMOST US$25T",
+        "count": 1
+      },
+      {
+        "id": "global-sales-end",
+        "module": "song_global",
+        "needle": "US$27T",
+        "count": 1
+      },
+      {
+        "id": "global-sales-change",
+        "module": "song_global",
+        "needle": "+10%",
+        "count": 1
+      },
+      {
+        "id": "global-retail-share",
+        "module": "song_global",
+        "needle": "25-30%",
+        "count": 1
+      },
+      {
+        "id": "global-platform-growth",
+        "module": "song_global",
+        "needle": "+55%",
+        "count": 1
+      }
+    ],
+    "visiblePhotoHashEntries": [
+      {
+        "id": "online-payment-story-a",
+        "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Images/consumer_online_payment_pexels_29205862.jpg",
+        "sha256": "272a7eb47466838126f2fdef6b4302b0a7ddc62d6c2d4b097e886d849962881d"
+      },
+      {
+        "id": "warehouse-team-story-a",
+        "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Images/warehouse_team_pexels_6169653.jpg",
+        "sha256": "f7b3f713a77a4b0497d03e0d403a7558bd2210ad76c1057e535f8631be2a6136"
+      },
+      {
+        "id": "last-mile-step-story-a",
+        "source": "最终成品图/W1 Team Poster Draft/assets/photos/delivery_step_pexels_6868178.jpg",
+        "sha256": "718ca86420aa86edae9730cbd58fed1fc44c52a8af479bdd4420ffd73d654e40"
+      },
+      {
+        "id": "warehouse-worker-story-a",
+        "source": "sucai/工作过程/module_03_qin_ecosystem/candidate_blocks_real_data/assets/warehouse_worker_china_pexels_25461764.jpg",
+        "sha256": "fb4be3046ac7aaa64a923ca77cc02aeae7eeab8596c5b58ab9f0461c9623f9e1"
+      },
+      {
+        "id": "checkout-story-a",
+        "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Images/consumer_checkout_boxes_pexels_7620626.jpg",
+        "sha256": "bab9c1697391866e2dd9845632136aa918821101d5f15d5a2a5017a20055c3df"
+      },
+      {
+        "id": "parcel-sorting-story-a",
+        "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Images/parcel_conveyor_pexels_5903898.jpg",
+        "sha256": "eed77d1afee229d630915ce793dbe8821459314faf57e28f65ef0f2d1dff5f7e"
+      },
+      {
+        "id": "warehouse-scale-story-a",
+        "source": "最终成品图/W1 Team Poster Draft/assets/photos/warehouse_packages_pexels_6170414.jpg",
+        "sha256": "559d20436dfce71f25a1a4a17cccfcc869054987928b06110b92c5cfab24e7af"
+      },
+      {
+        "id": "last-mile-context-story-a",
+        "source": "最终成品图/W1 Team Poster Draft/assets/photos/last_mile_courier_pexels_6169135.jpg",
+        "sha256": "7a034ccc29299e0b8759db02765792ed3a6b8b97196182240e8fb4eba025707a"
+      },
+      {
+        "id": "footer-team-process-1",
+        "source": "现场照片/1.jpg",
+        "sha256": "324b26c982bcc37996eac303cf3af683ab877f908d79988dbacd92129246283c"
+      },
+      {
+        "id": "footer-team-process-3",
+        "source": "现场照片/3.jpg",
+        "sha256": "8d1a7dbe497439983466a9e34417a30f0b65a09f96f0971b54bf3c5994852f11"
+      },
+      {
+        "id": "footer-team-process-5",
+        "source": "现场照片/5.jpg",
+        "sha256": "206df5ebb559bbe86dcdddb9de6ad147f7324f463b15f5f80e48b0361212601c"
+      }
+    ],
+    "repeatedVisiblePhotoFiles": [],
+    "reusedModuleEmbeddedImageCount": 9,
+    "directPhotoVsModuleMatches": [],
+    "repeatedReusedModuleImageFiles": [],
+    "reusedModulePhotoOriginHashEntries": [
+      {
+        "id": "tao-market-scale:warehouse-inspection",
+        "source": "同学的/Tao Jiacheng - China Cross-Border E-Commerce at Scale/Source_Code/assets/warehouse_parcel_inspection_pexels_6170405.jpg",
+        "sha256": "4e66bf5c50aa17c4669bc62fed896985406b8e5db67b1635327182ac731f5f73"
+      },
+      {
+        "id": "qin-rcep-evidence:last-mile-delivery",
+        "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Source_Code/assets/last_mile_delivery_pexels_4487488.jpg",
+        "sha256": "cecc39354660e8340ac507d6621545cceafa37485160deff59424adcc775e8cf"
+      },
+      {
+        "id": "wang-consumer-reach:online-shopper",
+        "source": "同学的/王奕凯 - China Global Consumer Reach/Source_Code/assets/consumer_online_shopping_pexels_8788773.jpg",
+        "sha256": "e5b4edb4030d4a1d2a133f3521bdf0823b8f6cd4ee87de0958f1e17d82222232"
+      },
+      {
+        "id": "song-global-industry:fulfilment",
+        "source": "同学的/sonpeitong - Global Industry Impact/Source_Code/assets/delivery_woman_phone_packages_pexels_9461225.jpg",
+        "sha256": "bb95e6fb5fe31620fab7dd6f9cc88f810f8eb5ea6155857f66a60f28376173ef"
+      },
+      {
+        "id": "song-global-industry:payment",
+        "source": "同学的/sonpeitong - Global Industry Impact/Source_Code/assets/payment_terminal_pexels_8475155.jpg",
+        "sha256": "287a9c41888c8a8a3ecaf664416434f7f0b7e6a1e3f4d72c6e57e2d7f68a01e8"
+      },
+      {
+        "id": "song-global-industry:storage",
+        "source": "同学的/sonpeitong - Global Industry Impact/Source_Code/assets/warehouse_aisle_pexels_4277794.jpg",
+        "sha256": "88daf4259f372490d25bbe50e195bb5a64857b1afaab2ac9ebb2032924ffe899"
+      },
+      {
+        "id": "song-global-industry:delivery",
+        "source": "同学的/sonpeitong - Global Industry Impact/Source_Code/assets/delivery_van_pexels_21838827.jpg",
+        "sha256": "eaf49b0354831abf918d35f4e6e44d372757f1701d32b221065d540799fc6c0e"
+      }
+    ],
+    "directPhotoVsModuleOriginMatches": [],
+    "repeatedReusedModuleOriginPhotoFiles": []
+  }
+}

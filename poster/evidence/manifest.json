@@ -1,0 +1,236 @@
+{
+  "generatedAt": "2026-09-03T08:50:44.259Z",
+  "posterIdentity": {
+    "title": "THE CHINA E-COMMERCE EFFECT",
+    "subtitle": "FROM ONLINE DEMAND TO REGIONAL AND INDUSTRY EFFECTS",
+    "teamName": "SILKLINK FOUR",
+    "authors": [
+      "Tian Qin",
+      "Jiacheng Tao",
+      "Yikai Wang",
+      "Peitong Song"
+    ]
+  },
+  "layoutVariant": "A · Serpentine Evidence Flow",
+  "canvas": {
+    "width": 4960,
+    "height": 3600,
+    "physicalSizeMm": {
+      "width": 1189,
+      "height": 862.984
+    },
+    "widthDecision": "4960-unit width preserved; height is content-driven"
+  },
+  "narrative": [
+    "Question & Method",
+    "Trade Scale",
+    "Regional & Global Effects",
+    "Synthesis"
+  ],
+  "connectorPolicy": "Four numbered slate-blue module connectors use the same 30-unit length, 6-unit body stroke, 5.2-unit arrowhead stroke and 13-unit stage badge; only position and direction vary. The connector layer is rendered above all poster content so no arrowhead can be covered. Small photo-sequence chevrons float centrally in the gutters and do not touch image edges.",
+  "mastheadPolicy": "Six vector header visuals share a common raised optical centreline and visual height, with approximately 100-unit intra-cluster gaps; the title rule is one continuous 1540-unit line.",
+  "dataPolicy": "The four completed team modules remain intact. Three separately reviewed summary figures are calculated directly from archived CSVs; intentional headline repetition in the compact 2024 summary is used to support synthesis, not to create unsupported claims.",
+  "photoPolicy": "Every directly placed body and footer photograph has a unique source image. Footer thumbnails use three distinct team process photographs; known image duplicates with the reused industry module were replaced.",
+  "culturalIdentity": [
+    "Wuhan · Yellow Crane Tower",
+    "Wuhan · hot dry noodles",
+    "Manchester · industrial mill",
+    "Manchester · worker bee"
+  ],
+  "reusedModules": [
+    {
+      "id": "tao_market",
+      "source": "同学的/Tao Jiacheng - China Cross-Border E-Commerce at Scale/Source_Code/figures/tao_market_scale.svg"
+    },
+    {
+      "id": "qin_rcep",
+      "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Source_Code/figures/block_c_rcep_evidence.svg"
+    },
+    {
+      "id": "wang_consumer",
+      "source": "同学的/王奕凯 - China Global Consumer Reach/Source_Code/figures/consumer_reach_w1_hybrid.svg"
+    },
+    {
+      "id": "song_global",
+      "source": "同学的/sonpeitong - Global Industry Impact/Source_Code/figures/global_industry_impact_w1.svg"
+    }
+  ],
+  "metricAudit": [
+    {
+      "id": "trade-final-total",
+      "module": "tao_market",
+      "needle": "2.71",
+      "count": 1
+    },
+    {
+      "id": "trade-export-share",
+      "module": "tao_market",
+      "needle": "79.5%",
+      "count": 1
+    },
+    {
+      "id": "rcep-panel-scope",
+      "module": "qin_rcep",
+      "needle": "110 country-year observations across 11 partners.",
+      "count": 1
+    },
+    {
+      "id": "consumer-start",
+      "module": "wang_consumer",
+      "needle": "26%",
+      "count": 1
+    },
+    {
+      "id": "consumer-end",
+      "module": "wang_consumer",
+      "needle": "37%",
+      "count": 1
+    },
+    {
+      "id": "consumer-change",
+      "module": "wang_consumer",
+      "needle": "+11 pp",
+      "count": 1
+    },
+    {
+      "id": "global-scope",
+      "module": "song_global",
+      "needle": "43 economies cover about three quarters of global GDP and exports",
+      "count": 1
+    },
+    {
+      "id": "global-sales-start",
+      "module": "song_global",
+      "needle": "ALMOST US$25T",
+      "count": 1
+    },
+    {
+      "id": "global-sales-end",
+      "module": "song_global",
+      "needle": "US$27T",
+      "count": 1
+    },
+    {
+      "id": "global-sales-change",
+      "module": "song_global",
+      "needle": "+10%",
+      "count": 1
+    },
+    {
+      "id": "global-retail-share",
+      "module": "song_global",
+      "needle": "25-30%",
+      "count": 1
+    },
+    {
+      "id": "global-platform-growth",
+      "module": "song_global",
+      "needle": "+55%",
+      "count": 1
+    }
+  ],
+  "derivedCharts": [
+    {
+      "id": "reviewed-trade-mix",
+      "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Source_Code/data/china_cbec_trade_2018_2024_verified.csv",
+      "transform": "2024 export/import mix and verified headline statistics"
+    },
+    {
+      "id": "reviewed-growth-waterfall",
+      "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Source_Code/data/china_cbec_trade_2018_2024_verified.csv",
+      "transform": "2018–2024 total change decomposed into export and import contributions"
+    },
+    {
+      "id": "reviewed-rcep-opportunity",
+      "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Source_Code/data/rcep_trade_potential_by_country_year.csv",
+      "transform": "2022 level plotted against change since 2013, grouped by documented evidence category"
+    }
+  ],
+  "photos": [
+    {
+      "id": "online-payment-story-a",
+      "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Images/consumer_online_payment_pexels_29205862.jpg"
+    },
+    {
+      "id": "warehouse-team-story-a",
+      "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Images/warehouse_team_pexels_6169653.jpg"
+    },
+    {
+      "id": "last-mile-step-story-a",
+      "source": "最终成品图/W1 Team Poster Draft/assets/photos/delivery_step_pexels_6868178.jpg"
+    },
+    {
+      "id": "warehouse-worker-story-a",
+      "source": "sucai/工作过程/module_03_qin_ecosystem/candidate_blocks_real_data/assets/warehouse_worker_china_pexels_25461764.jpg"
+    },
+    {
+      "id": "checkout-story-a",
+      "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Images/consumer_checkout_boxes_pexels_7620626.jpg"
+    },
+    {
+      "id": "parcel-sorting-story-a",
+      "source": "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Images/parcel_conveyor_pexels_5903898.jpg"
+    },
+    {
+      "id": "warehouse-scale-story-a",
+      "source": "最终成品图/W1 Team Poster Draft/assets/photos/warehouse_packages_pexels_6170414.jpg"
+    },
+    {
+      "id": "last-mile-context-story-a",
+      "source": "最终成品图/W1 Team Poster Draft/assets/photos/last_mile_courier_pexels_6169135.jpg"
+    }
+  ],
+  "footerPhotos": [
+    {
+      "id": "footer-team-process-1",
+      "source": "现场照片/1.jpg"
+    },
+    {
+      "id": "footer-team-process-3",
+      "source": "现场照片/3.jpg"
+    },
+    {
+      "id": "footer-team-process-5",
+      "source": "现场照片/5.jpg"
+    }
+  ],
+  "externalPhotoProvenance": [
+    {
+      "sourcePage": "https://www.pexels.com/photo/male-employee-through-a-shelf-6170414/",
+      "localFile": "最终成品图/W1 Team Poster Draft/assets/photos/warehouse_packages_pexels_6170414.jpg",
+      "creator": "Tima Miroshnichenko",
+      "licence": "Pexels free to use"
+    },
+    {
+      "sourcePage": "https://www.pexels.com/photo/delivery-man-going-out-from-a-van-6169135/",
+      "localFile": "最终成品图/W1 Team Poster Draft/assets/photos/last_mile_courier_pexels_6169135.jpg",
+      "creator": "Tima Miroshnichenko",
+      "licence": "Pexels free to use"
+    },
+    {
+      "sourcePage": "https://www.pexels.com/photo/a-man-making-a-delivery-6868178/",
+      "localFile": "最终成品图/W1 Team Poster Draft/assets/photos/delivery_step_pexels_6868178.jpg",
+      "creator": "Kindel Media",
+      "licence": "Pexels free to use"
+    }
+  ],
+  "visibleRealPhotoEstimate": 15,
+  "sources": [
+    "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Source_Code/data/china_cbec_trade_2018_2024_verified.csv",
+    "sucai/Qin Tian - China E-commerce Growth and Global Trade Evidence/Source_Code/data/rcep_trade_potential_by_country_year.csv",
+    "sucai/组员绘图任务包/02_Milkwort_father_consumer_reach/data/ipc_purchase_source_china_2016_2023.csv"
+  ],
+  "references": [
+    "Ministry of Commerce of the PRC (2025), Report on China’s Development of Digital Trade 2025.",
+    "Zhang & Abdullah (2026), Humanities and Social Sciences Communications 13:941.",
+    "International Post Corporation (2023), Cross-Border E-commerce Shopper Survey.",
+    "UNCTAD (2024), Business e-commerce sales and the role of online platforms.",
+    "General Administration of Customs of China (2020–2024), annual cross-border e-commerce releases.",
+    "HKTDC (2024), Digital Trade Transformation, p. 8.",
+    "UNCTADstat, E-commerce: Domestic and international sales — annual dataset."
+  ],
+  "github": {
+    "url": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+    "qr": "最终成品图/W1 Team Poster Draft/assets/qr/github_repo_qr.svg"
+  }
+}

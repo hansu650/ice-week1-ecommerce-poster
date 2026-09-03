@@ -1,0 +1,13 @@
+{
+  "name": "ice-week1-final-poster-source",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Archived integration source for the ICE Week 1 final poster",
+  "scripts": {
+    "build": "node build_w1_story_poster_4960.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}

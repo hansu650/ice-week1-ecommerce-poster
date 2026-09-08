@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-08",
+  "rail": [
+    {
+      "heading": "THE SERVICES BEHIND AN ORDER",
+      "text": "E-commerce is often seen through an app or a website, but a physical order connects sellers, shoppers and several supporting services. Stock must be available, payment has to be arranged, and goods need to reach the buyer. UNCTAD describes platforms offering warehousing, logistics and analytics as well as online transactions. IPC’s survey also treats customs and delivery as parts of the shopping experience. This service view helps explain why China’s expanding cross-border trade is relevant to firms beyond the shopfront. [3,5]"
+    },
+    {
+      "heading": "CONNECT DEMAND WITH FULFILMENT",
+      "text": "Our interpretation is that an export opportunity involves both finding customers and organising the services around the order. For example, a seller considering another destination could compare demand evidence with the payment and delivery options available there. The trade chart gives the national scale, the shopper survey shows reported purchase origins and satisfaction, and the regional model highlights differences worth investigating. Using them together helps frame a business question without treating them as interchangeable proof of demand. [1–5]"
+    }
+  ],
+  "photo_scope": "These photographs illustrate services. They do not document particular Chinese firms or prove a growth trend.",
+  "trade": [
+    {
+      "heading": "Exports account for most of the expansion",
+      "text": "China’s cross-border e-commerce trade rose from RMB 1.06 trillion in 2018 to RMB 2.71 trillion in 2024, up 156.4%. Exports increased by 251.9%, against 25.0% for imports. The gap means that the expansion was concentrated in selling abroad. Imports also grew, so their falling share should not be confused with an absolute fall in purchases from overseas."
+    },
+    {
+      "heading": "What this means for firms",
+      "text": "The trade mix links China’s growth to overseas customers and the services needed to fulfil their orders. Our interpretation is that firms should consider customer acquisition, payments and delivery together when planning export activity. A growing national total can provide context for that planning, but it does not show demand for an individual product. The figures establish which trade component expanded; they do not isolate the causes."
+    }
+  ],
+  "trade_chart_role": "Annual growth was uneven: 25.7% in 2020, 7.1% in 2022, 15.3% in 2023 and 14.0% in 2024. The total kept rising across these years, even when the growth rate slowed. For firms, this distinction matters: slower growth is still expansion, but stock and delivery plans may need to allow for different rates of change. [1]",
+  "consumer_trend": "China’s share was 26% in 2016 and 37% in 2023, an 11-percentage-point increase. However, the endpoint comparison hides a reversal: the share fell from 36% in 2019 to 30% in 2022, before rising by seven points. The 2023 result was only one point above 2019. Sellers therefore have reason to examine the intervening years when assessing demand, rather than extending a smooth upward trend. [2,3]",
+  "consumer": [
+    {
+      "heading": "What does 37% mean?",
+      "text": "The percentage measures the reported origin of surveyed frequent cross-border shoppers’ latest purchase, rather than the value of all sales. The trend uses 24 countries, while the full 2023 survey covers 32,510 shoppers in 41 countries. This distinction matters when comparing the survey with China’s national trade totals: the two sources describe different populations and measures."
+    },
+    {
+      "heading": "A service question for exporters",
+      "text": "In the full survey, 71% were very or extremely satisfied with the delivery location, compared with 42% for customs, a 29-point gap. Our interpretation is that an exporter could investigate how buyers receive customs information and how delivery is coordinated. These are practical questions to test in the intended destination; the survey does not establish why satisfaction differs or whether these services caused the purchase-origin trend."
+    }
+  ],
+  "rcep": [
+    {
+      "heading": "Read the model before the colour",
+      "text": "Each ratio compares an allocated export proxy with model-implied exports. A lower value means less proxy trade relative to the benchmark, not necessarily a smaller market. Japan and New Zealand average 0.580 and 0.619; Thailand and the Philippines average 1.676 and 1.783. Below 0.8, the authors identify unused potential; above 1.2, they suggest innovative trade models or new trade areas."
+    },
+    {
+      "heading": "Average and latest year differ",
+      "text": "New Zealand’s 2022 ratio is 0.83, above 0.8, although its period average is below that threshold. A decade-wide category can therefore hide later changes. Our interpretation is that firms should compare both the level and the time pattern, then investigate local demand, payments and delivery. These historical model ratios can help frame questions about a destination; they cannot establish future sales or an effect of the RCEP agreement."
+    }
+  ],
+  "global": [
+    {
+      "heading": "What the two totals show",
+      "text": "Business e-commerce sales across 43 economies rose from almost US$25 trillion in 2021 to an indicative US$27 trillion in 2022. The separate 37-platform compilation increased from around US$2.6 trillion in 2019 to US$4.0 trillion in 2021. These measures answer different questions: the scale of business e-commerce and the activity recorded by selected intermediaries. They cover different periods and activities, so they cannot be added."
+    },
+    {
+      "heading": "Services and concentration",
+      "text": "Six platforms account for 80% of sales in the 37-platform compilation. UNCTAD also describes payments, warehousing, delivery and analytics supplied by platforms. Our interpretation is that these intermediaries can help sellers reach customers while creating dependence on a few providers. Read alongside China’s export growth, the figures draw attention to service partners involved in overseas selling. They do not show that China caused the changes in either the multi-economy business-sales total or the platform compilation."
+    }
+  ],
+  "advanced": {
+    "trade_mix": "Exports represented 79.5% of the 2024 total, up 21.6 percentage points since 2018. Imports accounted for 20.5%, although their value also increased. The shift therefore reflects faster export growth. Our interpretation is that overseas customers and order-fulfilment services deserve attention together when firms consider this changing trade mix. Source [1].",
+    "growth_waterfall": "Exports contributed RMB 1.54 trillion of the RMB 1.65 trillion net increase; imports contributed RMB 0.11 trillion. The 93.3% export contribution separates the source of the additional trade from the 79.5% export share of the final total. One measures change, the other composition. Neither identifies the causes of growth. Source [1].",
+    "rcep_opportunity": "Thailand rose from 1.335 to 2.453; Japan changed from 0.653 to 0.690. The scatter compares ending levels and changes since 2013, while the heatmap shows the intervening years. A high ending ratio and a large increase answer different questions. The movement describes a proxy/model ratio, not a sales growth rate. Source [4]."
+  }
+}

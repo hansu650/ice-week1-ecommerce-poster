@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-09-03T08:45:39.887420+00:00",
+  "url": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+  "errorCorrection": "Q",
+  "qrVersion": 5,
+  "matrixModulesIncludingQuietZone": 45,
+  "quietZoneModules": 4,
+  "verificationPngPixels": [
+    1080,
+    1080
+  ],
+  "standaloneDecode": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+  "standaloneDetectorPoints": [
+    [
+      96.0,
+      96.0
+    ],
+    [
+      983.0,
+      96.0
+    ],
+    [
+      983.0,
+      983.0
+    ],
+    [
+      96.0,
+      983.0
+    ]
+  ],
+  "svg": {
+    "path": "poster/assets/qr/github_repo_qr.svg",
+    "sha256": "d174c5d4dd63c23e834f48803480cf00db18721a6a7825e6bdd1900e2955f731"
+  },
+  "png": {
+    "path": "poster/assets/qr/github_repo_qr_verification.png",
+    "sha256": "ba4244da05841a0e00e32a6be9403dd30b97e3dc29bd4ec44b3038e74086177b"
+  }
+}

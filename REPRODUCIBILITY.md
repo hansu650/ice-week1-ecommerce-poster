@@ -19,7 +19,7 @@ conda activate ice-week1-data-pipeline
 python scripts/build_all.py
 ```
 
-This command reads the three committed raw inputs and deterministically writes:
+This command reads the three raw inputs consumed by the data pipeline and deterministically writes:
 
 - `data/processed/china_cbec_trade_2018_2024.csv`
 - `data/processed/ipc_purchase_source_china_2016_2023.csv`
@@ -42,7 +42,7 @@ python -m pytest -q
 - ascending/continuous years;
 - numeric and percentage ranges;
 - `total = export + import` for every China row;
-- IPC's exact two endpoints and +11 percentage-point change;
+- IPC's eight published annual observations, +11 percentage-point endpoint change, −6-point decline and +7-point rebound;
 - UNCTAD's 43-economy coverage and approximate/indicative labels;
 - consistency between CSVs and `metrics_summary.json`.
 

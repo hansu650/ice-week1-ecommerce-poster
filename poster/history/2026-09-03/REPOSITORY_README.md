@@ -7,14 +7,12 @@ This public repository records the research evidence, deterministic data process
 
 ## Final poster
 
-[![Final poster review preview](poster/final/W1_Poster_Preview.png)](poster/final/W1_Poster_Revised.pdf)
+[![Final poster review preview](poster/final/W1_Layout_A_Integrated_Final_4960_review_preview.png)](poster/final/W1_Layout_A_Integrated_Final_4960.pdf)
 
-**The China E-Commerce Effect: China's cross-border e-commerce growth and its links to global industry**
+**The China E-Commerce Effect: From Online Demand to Regional and Industry Effects**
 
-Current revision: **8 September 2026**. Repository creator: **hansu650**.
-
-- [Download the editable SVG master](poster/final/W1_Poster_Revised.svg)
-- [Download the print PDF](poster/final/W1_Poster_Revised.pdf)
+- [Download the editable SVG master](poster/final/W1_Layout_A_Integrated_Final_4960.svg)
+- [Download the print PDF](poster/final/W1_Layout_A_Integrated_Final_4960.pdf)
 - [Read the poster delivery notes](poster/README.md)
 - [Read the complete public process and evidence chain](docs/FINAL_POSTER_PROCESS.md)
 
@@ -22,14 +20,11 @@ The final canvas is 4960 × 3600 units. The SVG is the canonical editable master
 
 ## Current status
 
-- The current poster preserves all eight data charts and four context photographs.
-- Explanatory prose increased from 656 to 1,096 words under the same counting rule; the revision adds comparisons, interpretation and evidence limits.
-- The SVG, HTML and PDF retain vector chart/text content; the four photo payloads retain their original JPEG bytes.
-- Screen and print layout measurements passed, and the fresh final review found no required fixes.
-- QR continuity was checked against the previously verified render; no fresh decode is claimed for this revision.
-- The data pipeline now preserves all eight published IPC annual observations and remains deterministic.
-- [Revision notes and validation scope](docs/TEACHER_FEEDBACK_REVISION_20260908.md)
-- [Previous public delivery](poster/history/2026-09-03/)
+- Four team evidence modules are integrated into one four-stage argument.
+- The final SVG, PDF, and review preview are committed under [`poster/final/`](poster/final/).
+- Project-specific validation records 35/35 checks as passing.
+- QR verification records four successful decode contexts: standalone, full-resolution poster, 40% review preview, and a 150-DPI PDF render.
+- The earlier data pipeline remains deterministic and is checked by GitHub Actions.
 
 ## Evidence chain
 
@@ -52,7 +47,7 @@ The public-safe process narrative is in [`docs/FINAL_POSTER_PROCESS.md`](docs/FI
 | Module | Processed file | Rows | Important scope |
 |---|---|---:|---|
 | Market growth | [`data/processed/china_cbec_trade_2018_2024.csv`](data/processed/china_cbec_trade_2018_2024.csv) | 7 | Revised 2018–2024 series; unit is RMB 100 million |
-| Consumer reach | [`data/processed/ipc_purchase_source_china_2016_2023.csv`](data/processed/ipc_purchase_source_china_2016_2023.csv) | 8 | Published annual purchase-origin observations; not a sales-value market share |
+| Consumer reach | [`data/processed/ipc_purchase_source_china_2016_2023.csv`](data/processed/ipc_purchase_source_china_2016_2023.csv) | 2 | Two observed survey endpoints; not a sales-value market share |
 | Global industry context | [`data/processed/unctad_business_ecommerce_sales_2016_2022.csv`](data/processed/unctad_business_ecommerce_sales_2016_2022.csv) | 7 | Approximate totals for 43 economies; 2022 is indicative |
 
 Machine-readable derived metrics are in [`data/processed/metrics_summary.json`](data/processed/metrics_summary.json). Definitions, provenance, and limitations are documented in [DATA_DICTIONARY.md](DATA_DICTIONARY.md) and [DATA_SOURCES.md](DATA_SOURCES.md).
@@ -60,8 +55,8 @@ Machine-readable derived metrics are in [`data/processed/metrics_summary.json`](
 Key interpretation boundaries retained in the poster process:
 
 - the verified 2024 China cross-border e-commerce total is approximately RMB 2.71 trillion;
-- IPC's 26% → 37% endpoint change contains a decline and rebound; it measures latest-purchase origin responses, not China's global sales share;
-- the RCEP figures are historical allocated-export-proxy/model ratios, not sales forecasts or a causal estimate;
+- the IPC 26% → 37% endpoints describe surveyed shoppers whose latest cross-border purchase came from China, not China’s global sales share;
+- the RCEP evidence is framed as opportunity/association rather than a direct causal estimate;
 - the 2022 UNCTAD business e-commerce total remains indicative.
 
 ## Rebuild and validate the data
@@ -88,7 +83,7 @@ The `--check` mode builds into a temporary directory and requires byte-for-byte 
 python scripts/validate_poster_delivery.py
 ```
 
-This standard-library check binds the current artifacts to their hashes and evidence records, checks eight charts and four original photo payloads in the SVG, verifies approved prose and local links, and confirms QR path continuity. It complements the recorded browser, PDF-object and manual visual checks.
+This standard-library check verifies required files, SHA-256 checksums, SVG canvas metadata, basic PDF integrity, the 35 project checks, the manifest identity, and all four recorded QR decode outcomes. It complements rather than replaces manual visual review.
 
 ## Repository structure
 
@@ -100,11 +95,9 @@ scripts/            # data build/validation and poster delivery validation
 tests/              # data contracts and deterministic-build tests
 materials/          # original contributor packages retained by contributor
 poster/
-  final/            # current SVG, HTML, PDF, preview, and checksums
+  final/            # final SVG, PDF, preview, and checksums
   evidence/         # manifest and machine-readable QA records
-  source/           # current and historical assembly/QR scripts
-  modules/          # editable chart modules
-  history/          # dated previous delivery and original QA records
+  source/           # archived integration and QR scripts
 docs/
   TEAM_FIGURE_HANDOFF.md
   FINAL_POSTER_PROCESS.md
@@ -123,7 +116,7 @@ The final poster remains a team outcome. Individual reflection and portfolio evi
 
 ## Validation scope
 
-The current course-specific screen/print checks passed. The final review is a same-family provisional assessment, not a course-grade guarantee. The separate generic conference-paper gate is not represented as passed. The earlier 35-check/four-decode records remain dated historical evidence, and the current QR check is described as continuity rather than a fresh decode. See [poster evidence](poster/evidence/README.md).
+The repository does not claim that every possible poster gate passed. The committed project validator reports 35/35 checks passing, and the QR report records four successful decode contexts. A separate generic academic-poster gate used during local review was only partially applicable because it expected `img[data-source=paper]` assets rather than nested SVG modules, while browser-based checks were unavailable in that run. See [`poster/evidence/README.md`](poster/evidence/README.md).
 
 ## Design reference
 
@@ -133,4 +126,4 @@ Feature4X’s CVPR 2025 poster is an external reference only for studying layout
 
 Do not upload private chats, credentials, cookies, tokens, student IDs, course assessment/template files, virtual environments, caches, or unrelated course files. Do not mix the preliminary 2020–2024 customs sequence with the revised 2018–2024 report series, and do not introduce unsupported 2025/2026 demonstration values.
 
-The current poster includes four attributed third-party context photographs. Their inclusion here does not grant a blanket reuse licence for the repository. Each contributor should follow [CONTRIBUTING.md](CONTRIBUTING.md) and use a separate branch and pull request.
+The final poster includes attributed third-party photographs and small team-process thumbnails. Their inclusion here does not grant a blanket reuse licence for the repository. Each contributor should follow [CONTRIBUTING.md](CONTRIBUTING.md) and use a separate branch and pull request.

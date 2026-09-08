@@ -1,13 +1,15 @@
 {
   "name": "ice-week1-final-poster-source",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "Archived integration source for the ICE Week 1 final poster",
+  "description": "Current and historical assembly sources for the ICE Week 1 poster",
   "scripts": {
-    "build": "node build_w1_story_poster_4960.mjs"
+    "build": "node build_text_expansion_20260908.mjs",
+    "build:historical": "node build_w1_story_poster_4960.mjs"
   },
   "dependencies": {
-    "playwright": "1.62.1"
+    "playwright": "1.62.1",
+    "sharp": "0.35.4"
   }
 }

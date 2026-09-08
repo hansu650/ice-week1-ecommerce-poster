@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650" role="img" aria-label="Candidate C RCEP opportunity bubble map">
+<rect x="0" y="0" width="1500" height="650" fill="#FFFFFF"/>
+<text x="42" y="58" font-family="Comic Sans MS, Comic Sans, cursive" font-size="40" font-weight="bold" fill="#365866">RCEP LEVEL AND CHANGE</text>
+<text x="42" y="96" font-family="Comic Sans MS, Comic Sans, cursive" font-size="22" fill="#294052">2022 proxy/model ratio and change since 2013 · 11 partners</text>
+<line x1="42" y1="116" x2="1458" y2="116" stroke="#ADD8E2" stroke-width="3"/>
+<line x1="184.09" y1="200" x2="184.09" y2="558" stroke="#D9E5EA" stroke-width="2"/>
+<text x="184.09" y="592" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">0.5</text>
+<line x1="454.55" y1="200" x2="454.55" y2="558" stroke="#D9E5EA" stroke-width="2"/>
+<text x="454.55" y="592" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">1.0</text>
+<line x1="725.00" y1="200" x2="725.00" y2="558" stroke="#D9E5EA" stroke-width="2"/>
+<text x="725.00" y="592" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">1.5</text>
+<line x1="995.45" y1="200" x2="995.45" y2="558" stroke="#D9E5EA" stroke-width="2"/>
+<text x="995.45" y="592" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">2.0</text>
+<line x1="1265.91" y1="200" x2="1265.91" y2="558" stroke="#D9E5EA" stroke-width="2"/>
+<text x="1265.91" y="592" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">2.5</text>
+<line x1="130" y1="518.80" x2="1320" y2="518.80" stroke="#4D8DA4" stroke-width="2.5" stroke-dasharray="10 8"/>
+<text x="108" y="525.80" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">0.0</text>
+<line x1="130" y1="414.28" x2="1320" y2="414.28" stroke="#D9E5EA" stroke-width="2"/>
+<text x="108" y="421.28" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">+0.4</text>
+<line x1="130" y1="309.75" x2="1320" y2="309.75" stroke="#D9E5EA" stroke-width="2"/>
+<text x="108" y="316.75" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">+0.8</text>
+<line x1="130" y1="205.23" x2="1320" y2="205.23" stroke="#D9E5EA" stroke-width="2"/>
+<text x="108" y="212.23" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">+1.2</text>
+<text x="725" y="630" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="20" font-weight="bold" fill="#294052">2022 TRADE-POTENTIAL INDEX</text>
+<text x="38" y="356" transform="rotate(-90 38 356)" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="20" font-weight="bold" fill="#294052">CHANGE SINCE 2013</text>
+<circle cx="286.86" cy="509.13" r="18.00" fill="#FFFFFF" stroke="#52748B" stroke-width="5"/>
+<text x="258.86" y="479.13" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">JPN</text>
+<circle cx="361.51" cy="437.01" r="18.00" fill="#FFFFFF" stroke="#52748B" stroke-width="5"/>
+<text x="341.51" y="409.01" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">NZL</text>
+<circle cx="234.94" cy="521.94" r="18.00" fill="#FFFFFF" stroke="#52748B" stroke-width="5"/>
+<text x="176.94" y="495.94" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">LAO</text>
+<circle cx="481.05" cy="446.68" r="18.00" fill="#FFFFFF" stroke="#52748B" stroke-width="5"/>
+<text x="503.05" y="426.68" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">KOR</text>
+<rect x="610.72" y="356.82" width="36.00" height="36.00" rx="7" fill="#EAF6F5" stroke="#4D8DA4" stroke-width="5"/>
+<text x="652.72" y="356.82" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">AUS</text>
+<rect x="454.40" y="506.29" width="36.00" height="36.00" rx="7" fill="#EAF6F5" stroke="#4D8DA4" stroke-width="5"/>
+<text x="414.40" y="560.29" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">SGP</text>
+<rect x="688.61" y="440.70" width="36.00" height="36.00" rx="7" fill="#EAF6F5" stroke="#4D8DA4" stroke-width="5"/>
+<text x="730.61" y="440.70" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">MYS</text>
+<rect x="616.13" y="446.45" width="36.00" height="36.00" rx="7" fill="#EAF6F5" stroke="#4D8DA4" stroke-width="5"/>
+<text x="576.13" y="500.45" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">IDN</text>
+<path d="M 856.98 377.99 L 874.98 395.99 L 856.98 413.99 L 838.98 395.99 Z" fill="#2A9D8F" stroke="#365866" stroke-width="4"/>
+<text x="880.98" y="377.99" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">VNM</text>
+<path d="M 1240.49 208.65 L 1258.49 226.65 L 1240.49 244.65 L 1222.49 226.65 Z" fill="#2A9D8F" stroke="#365866" stroke-width="4"/>
+<text x="1264.49" y="256.65" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">THA</text>
+<path d="M 1126.90 235.05 L 1144.90 253.05 L 1126.90 271.05 L 1108.90 253.05 Z" fill="#2A9D8F" stroke="#365866" stroke-width="4"/>
+<text x="1074.90" y="287.05" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">PHL</text>
+<text x="520" y="160" font-family="Comic Sans MS, Comic Sans, cursive" font-size="16" font-weight="bold" fill="#294052">GROUP</text>
+<circle cx="610" cy="154" r="10" fill="#FFFFFF" stroke="#52748B" stroke-width="4"/><text x="629" y="161" font-family="Comic Sans MS, Comic Sans, cursive" font-size="17" fill="#294052">SIGNIFICANT</text>
+<rect x="785" y="144" width="20" height="20" rx="4" fill="#EAF6F5" stroke="#4D8DA4" stroke-width="4"/><text x="815" y="161" font-family="Comic Sans MS, Comic Sans, cursive" font-size="17" fill="#294052">EXPLORATORY</text>
+<path d="M 1000 142 L 1012 154 L 1000 166 L 988 154 Z" fill="#2A9D8F" stroke="#365866" stroke-width="3"/><text x="1020" y="161" font-family="Comic Sans MS, Comic Sans, cursive" font-size="17" fill="#294052">RECONSTRUCTIVE</text>
+</svg>

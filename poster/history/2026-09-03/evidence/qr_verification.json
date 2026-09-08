@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-09-03T08:51:50.788618+00:00",
+  "expectedUrl": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+  "allPassed": true,
+  "results": [
+    {
+      "imagePixels": [
+        1080,
+        1080
+      ],
+      "posterCrop": false,
+      "cropPixels": null,
+      "decoded": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+      "matchesExpected": true,
+      "attempts": [
+        {
+          "variant": "native",
+          "decoded": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+          "points": [
+            [
+              96.0,
+              96.0
+            ],
+            [
+              983.0,
+              96.0
+            ],
+            [
+              983.0,
+              983.0
+            ],
+            [
+              96.0,
+              983.0
+            ]
+          ]
+        }
+      ],
+      "label": "standalone",
+      "path": "assets\\qr\\github_repo_qr_verification.png"
+    },
+    {
+      "imagePixels": [
+        4960,
+        3600
+      ],
+      "posterCrop": true,
+      "cropPixels": [
+        4675,
+        3285,
+        4950,
+        3560
+      ],
+      "decoded": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+      "matchesExpected": true,
+      "attempts": [
+        {
+          "variant": "native",
+          "decoded": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+          "points": [
+            [
+              50.0,
+              45.0
+            ],
+            [
+              235.0,
+              45.0
+            ],
+            [
+              235.0,
+              230.91000366210938
+            ],
+            [
+              50.0,
+              229.0
+            ]
+          ]
+        }
+      ],
+      "label": "poster:W1_Layout_A_Integrated_Final_4960_preview.png",
+      "path": "W1_Layout_A_Integrated_Final_4960_preview.png"
+    },
+    {
+      "imagePixels": [
+        1984,
+        1440
+      ],
+      "posterCrop": true,
+      "cropPixels": [
+        1870,
+        1314,
+        1980,
+        1424
+      ],
+      "decoded": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+      "matchesExpected": true,
+      "attempts": [
+        {
+          "variant": "native",
+          "decoded": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+          "points": [
+            [
+              20.0,
+              18.0
+            ],
+            [
+              93.0,
+              18.0
+            ],
+            [
+              93.0,
+              91.0
+            ],
+            [
+              20.0,
+              91.0
+            ]
+          ]
+        }
+      ],
+      "label": "poster:W1_Layout_A_Integrated_Final_4960_review_preview.png",
+      "path": "W1_Layout_A_Integrated_Final_4960_review_preview.png"
+    },
+    {
+      "imagePixels": [
+        7021,
+        5096
+      ],
+      "posterCrop": true,
+      "cropPixels": [
+        6618,
+        4650,
+        7007,
+        5039
+      ],
+      "decoded": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+      "matchesExpected": true,
+      "attempts": [
+        {
+          "variant": "native",
+          "decoded": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+          "points": [
+            [
+              71.0,
+              64.0
+            ],
+            [
+              332.0,
+              64.0
+            ],
+            [
+              332.0,
+              325.0
+            ],
+            [
+              71.0,
+              325.0
+            ]
+          ]
+        }
+      ],
+      "label": "pdf:final_pdf_150dpi.png",
+      "path": "tmp\\review_v4\\final_pdf_150dpi.png"
+    }
+  ]
+}

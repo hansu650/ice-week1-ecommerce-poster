@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650" role="img" aria-label="Candidate B trade growth contribution waterfall">
+<rect x="0" y="0" width="1500" height="650" fill="#FFFFFF"/>
+<text x="42" y="58" font-family="Comic Sans MS, Comic Sans, cursive" font-size="40" font-weight="bold" fill="#365866">WHERE DID THE INCREASE COME FROM?</text>
+<text x="42" y="96" font-family="Comic Sans MS, Comic Sans, cursive" font-size="22" fill="#294052">RMB trillion · contributions to the 2018–2024 increase</text>
+<line x1="42" y1="116" x2="1458" y2="116" stroke="#ADD8E2" stroke-width="3"/>
+<line x1="110" y1="556" x2="1325" y2="556" stroke="#D9E5EA" stroke-width="2"/>
+<text x="88" y="563" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">0.0</text>
+<line x1="110" y1="420" x2="1325" y2="420" stroke="#D9E5EA" stroke-width="2"/>
+<text x="88" y="427" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">1.0</text>
+<line x1="110" y1="284" x2="1325" y2="284" stroke="#D9E5EA" stroke-width="2"/>
+<text x="88" y="291" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">2.0</text>
+<line x1="110" y1="148" x2="1325" y2="148" stroke="#D9E5EA" stroke-width="2"/>
+<text x="88" y="155" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" fill="#294052">3.0</text>
+<rect x="165" y="412.42" width="190" height="143.58" rx="10" fill="#52748B"/>
+<text x="260" y="396.42" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="27" font-weight="bold" fill="#365866">1.06T</text>
+<text x="260" y="600" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">2018 TOTAL</text>
+<line x1="355" y1="412.42" x2="465" y2="412.42" stroke="#4D8DA4" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="465" y="202.93" width="190" height="209.49" rx="10" fill="#2A9D8F"/>
+<text x="560" y="186.93" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="27" font-weight="bold" fill="#365866">+1.54T</text>
+<text x="560" y="600" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">EXPORT GROWTH</text>
+<line x1="655" y1="202.93" x2="765" y2="202.93" stroke="#4D8DA4" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="765" y="187.82" width="190" height="15.11" rx="10" fill="#ADD8E2"/>
+<text x="860" y="171.82" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="27" font-weight="bold" fill="#365866">+0.11T</text>
+<text x="860" y="600" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">IMPORT GROWTH</text>
+<line x1="955" y1="187.82" x2="1065" y2="187.82" stroke="#4D8DA4" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="1065" y="187.82" width="190" height="368.18" rx="10" fill="#365866"/>
+<text x="1160" y="171.82" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="27" font-weight="bold" fill="#365866">2.71T</text>
+<text x="1160" y="600" text-anchor="middle" font-family="Comic Sans MS, Comic Sans, cursive" font-size="19" font-weight="bold" fill="#294052">2024 TOTAL</text>
+<text x="1438" y="350" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="50" font-weight="bold" fill="#2A9D8F">93.3%</text>
+<text x="1438" y="386" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" font-weight="bold" fill="#294052">OF GROWTH</text>
+<text x="1438" y="418" text-anchor="end" font-family="Comic Sans MS, Comic Sans, cursive" font-size="18" font-weight="bold" fill="#294052">FROM EXPORTS</text>
+</svg>

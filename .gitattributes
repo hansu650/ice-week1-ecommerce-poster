@@ -12,3 +12,11 @@ poster/final/*.svg binary
 poster/final/*.pdf binary
 poster/final/*.png binary
 poster/assets/qr/*.svg binary
+
+# Current measured outputs and historical originals retain exact bytes.
+poster/final/*.html binary
+poster/modules/*.svg binary
+poster/modules/*.pdf binary
+poster/history/**/*.svg binary
+poster/history/**/*.pdf binary
+poster/history/**/*.png binary

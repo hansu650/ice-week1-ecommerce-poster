@@ -1,3 +1,5 @@
+> Historical record: this page describes the 3 September delivery. See [the 8 September revision](TEACHER_FEEDBACK_REVISION_20260908.md) for the current poster.
+
 # Final poster process and evidence chain
 
 ## Purpose
@@ -104,7 +106,7 @@ The final builder nests team SVG modules instead of converting every chart into 
 
 The public script has been privacy-sanitised: machine-specific user paths were replaced by environment variables. It still requires the original working-tree assets and is therefore an assembly record, not a claim that a fresh clone contains every licensed/private source asset.
 
-The canonical final artifact is [`poster/final/W1_Layout_A_Integrated_Final_4960.svg`](../poster/final/W1_Layout_A_Integrated_Final_4960.svg). The PDF is retained separately for print/viewing.
+The canonical final artifact is [`poster/final/W1_Layout_A_Integrated_Final_4960.svg`](../poster/history/2026-09-03/W1_Layout_A_Integrated_Final_4960.svg). The PDF is retained separately for print/viewing.
 
 ## 8. Applying final feedback as measurable changes
 

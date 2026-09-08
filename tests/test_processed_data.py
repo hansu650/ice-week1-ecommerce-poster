@@ -42,9 +42,12 @@ def test_china_metrics_are_derived_from_levels() -> None:
     assert china["import_share_pct_2024"] == pytest.approx(5552 / 27072 * 100, abs=1e-6)
 
 
-def test_ipc_has_two_observed_endpoints_only() -> None:
+def test_ipc_retains_all_published_observations_and_reversal() -> None:
     rows = _rows(ROOT / "data" / "processed" / "ipc_purchase_source_china_2016_2023.csv")
-    assert [(int(row["year"]), int(row["share_percent"])) for row in rows] == [(2016, 26), (2023, 37)]
+    assert [(int(row["year"]), int(row["share_percent"])) for row in rows] == list(zip(range(2016, 2024), [26, 33, 36, 36, 34, 31, 30, 37]))
+    summary = json.loads((ROOT / "data/processed/metrics_summary.json").read_text(encoding="utf-8"))["ipc_consumer_reach"]
+    assert summary["change_percentage_points_2019_2022"] == -6
+    assert summary["change_percentage_points_2022_2023"] == 7
 
 
 def test_unctad_values_are_qualified() -> None:

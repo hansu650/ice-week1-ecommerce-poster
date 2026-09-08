@@ -18,16 +18,16 @@ The pipeline enforces `total = export + import` for every year. The year-over-ye
 
 ## `ipc_purchase_source_china_2016_2023.csv`
 
-This dataset contains two real observed endpoints only. It has no 2017-2022 interpolation.
+This dataset contains all eight published observations from 2016 through 2023. None is interpolated.
 
 | Field | Type | Definition |
 |---|---|---|
-| `year` | integer | Survey trend year, either 2016 or 2023 |
+| `year` | integer | Survey trend year, 2016 through 2023 |
 | `share_percent` | decimal | **Share of surveyed cross-border shoppers whose latest purchase came from China.** |
 | `measure` | text | The definition above, repeated to prevent scope loss |
-| `sample_note` | text | Trend-sample or full-survey context retained from the task package |
+| `sample_note` | text | Published trend-country scope, with the full 2023 survey distinguished |
 
-This is a respondent/purchase-origin share. It is **not China's share of global e-commerce sales value**, retail revenue, merchandise value, or trade value. The public 2023 survey covered 32,510 respondents in 41 markets. IPC describes a 24-economy continuous trend panel; the task package records a 2023 trend sample of 23,005.
+This is a respondent/purchase-origin share. It is **not China's share of global e-commerce sales value**, retail revenue, merchandise value, or trade value. The public 2023 survey covered 32,510 respondents in 41 markets. IPC describes a 24-country continuous trend sample. The full-survey respondent count must not be assigned to this trend sample.
 
 ## `unctad_business_ecommerce_sales_2016_2022.csv`
 
@@ -50,5 +50,9 @@ This generated JSON contains only values calculated by the scripts. It includes:
 
 - the 2018-2024 China CBEC growth multiple and six-year CAGR;
 - 2024 export and import shares;
-- the IPC change in percentage points, plus survey-scope flags;
+- the IPC endpoint change, the 2019–2022 decline, the 2023 rebound, and survey-scope flags;
 - the UNCTAD coverage and approximate 2021/2022 values.
+
+## RCEP source table
+
+The additional raw RCEP table is a country-by-year matrix for 11 economies and 2013–2022. Its values are allocated-export-proxy/model-implied-export ratios. It is used by the poster heatmap and scatter; it is not a newly generated output of the three-stream data pipeline.

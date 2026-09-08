@@ -1,0 +1,407 @@
+{
+  "status": "PASS",
+  "scope": "Course-poster layout verification in screen and print media; this does not assert a pass of the conference-paper-only gate suite.",
+  "checkedAt": "2026-09-08T07:00:01.300Z",
+  "htmlSha256": "27697df071168333c7254463ec21a91b47c2501a2d4e0f82a7dcb1bf3f3d8867",
+  "dimensions": {
+    "masterPx": [
+      4960,
+      3600
+    ],
+    "physicalMm": [
+      1189,
+      862.983870967742
+    ]
+  },
+  "preservedDesign": "Approved expanded analysis, original Comic Sans MS and blue/teal identity, all eight data charts, four original photographs, four 16:9 vector modules and three secondary charts.",
+  "genericGate": "The prior Analysis_Revision/GENERIC_CONFERENCE_GATE_REPORT.json retains its original results. Its paper-extracted image rule does not apply to this course poster. This report verifies the actual course-poster layout through Node Playwright in screen and print media.",
+  "standaloneErrors": [],
+  "reports": [
+    {
+      "media": "screen",
+      "pageCss": {
+        "x": 0,
+        "y": 0,
+        "width": 4960,
+        "height": 3600,
+        "top": 0,
+        "right": 4960,
+        "bottom": 3600,
+        "left": 0
+      },
+      "textCount": 439,
+      "outside": [],
+      "textOverlaps": [],
+      "photoOverlaps": [],
+      "photos": [
+        {
+          "id": "warehouse_stock",
+          "embedded": true,
+          "x": 60,
+          "y": 1581,
+          "w": 495,
+          "h": 320
+        },
+        {
+          "id": "last_mile_delivery",
+          "embedded": true,
+          "x": 595,
+          "y": 1581,
+          "w": 495,
+          "h": 320
+        },
+        {
+          "id": "online_payment",
+          "embedded": true,
+          "x": 60,
+          "y": 2016,
+          "w": 495,
+          "h": 320
+        },
+        {
+          "id": "order_processing",
+          "embedded": true,
+          "x": 595,
+          "y": 2016,
+          "w": 495,
+          "h": 320
+        }
+      ],
+      "links": [
+        "https://fms.mofcom.gov.cn/xxfb/art/2025/art_3aeb2e47113845bdb16dcb053e5f6e9d.html",
+        "https://www.aof.org.hk/docs/default-source/hkimr/conference-workshop/panel-2_1_irina-fan.pdf",
+        "https://doi.org/10.1057/s41599-026-07267-z",
+        "https://unctad.org/system/files/official-document/dtlecde2024d3_en.pdf",
+        "https://www.pexels.com/photo/male-employee-through-a-shelf-6170414/",
+        "https://www.pexels.com/photo/delivery-man-going-out-from-a-van-6169135/",
+        "https://www.pexels.com/photo/online-shopping-with-credit-card-and-laptop-29205862/",
+        "https://www.pexels.com/photo/men-working-at-a-courier-service-6169653/",
+        "https://fms.mofcom.gov.cn/xxfb/art/2025/art_3aeb2e47113845bdb16dcb053e5f6e9d.html",
+        "https://www.aof.org.hk/docs/default-source/hkimr/conference-workshop/panel-2_1_irina-fan.pdf",
+        "https://www.ipc.be/news-portal/general-news/2024/01/11/12/46/ipc-cross-border-e-commerce-shopper-survey-shows-more-positive-mindset-among-online-consumers",
+        "https://doi.org/10.1057/s41599-026-07267-z",
+        "https://unctad.org/system/files/official-document/dtlecde2024d3_en.pdf",
+        "https://github.com/hansu650/ice-week1-ecommerce-poster",
+        "https://github.com/hansu650/ice-week1-ecommerce-poster"
+      ],
+      "modules": [
+        {
+          "id": "trade",
+          "x": 1150,
+          "y": 430,
+          "w": 1840,
+          "h": 1016.413818359375
+        },
+        {
+          "id": "consumer",
+          "x": 1150,
+          "y": 1505,
+          "w": 1840,
+          "h": 1016.413818359375
+        },
+        {
+          "id": "rcep",
+          "x": 3030,
+          "y": 430,
+          "w": 1840,
+          "h": 1016.413818359375
+        },
+        {
+          "id": "global",
+          "x": 3030,
+          "y": 1505,
+          "w": 1840,
+          "h": 1016.413818359375
+        },
+        {
+          "id": "advanced_trade_mix",
+          "x": 78,
+          "y": 2568.10009765625,
+          "w": 1493.97509765625,
+          "h": 665.89990234375
+        },
+        {
+          "id": "advanced_growth_waterfall",
+          "x": 1698,
+          "y": 2568.10009765625,
+          "w": 1489.2685546875,
+          "h": 629.89990234375
+        },
+        {
+          "id": "advanced_rcep_opportunity",
+          "x": 3318,
+          "y": 2568.10009765625,
+          "w": 1452.31884765625,
+          "h": 629.89990234375
+        }
+      ],
+      "charts": [
+        {
+          "id": "china_trade",
+          "observations": 7,
+          "x": 1150,
+          "y": 430,
+          "w": 1840,
+          "h": 927.9310302734375
+        },
+        {
+          "id": "china_origin",
+          "observations": 8,
+          "x": 1150,
+          "y": 1505,
+          "w": 1840,
+          "h": 927.93115234375
+        },
+        {
+          "id": "rcep_heatmap",
+          "observations": 110,
+          "x": 3030,
+          "y": 430,
+          "w": 1840,
+          "h": 927.9310302734375
+        },
+        {
+          "id": "business_sales",
+          "observations": 2,
+          "x": 3030,
+          "y": 1505,
+          "w": 1840,
+          "h": 927.93115234375
+        },
+        {
+          "id": "platform_sales",
+          "observations": 2,
+          "x": 3087.103515625,
+          "y": 2202.689697265625,
+          "w": 964.018310546875,
+          "h": 233.862060546875
+        },
+        {
+          "id": "trade_mix",
+          "observations": null,
+          "x": 78,
+          "y": 2568.10009765625,
+          "w": 1493.97509765625,
+          "h": 665.89990234375
+        },
+        {
+          "id": "growth_waterfall",
+          "observations": null,
+          "x": 1698,
+          "y": 2568.10009765625,
+          "w": 1489.2685546875,
+          "h": 629.89990234375
+        },
+        {
+          "id": "rcep_opportunity",
+          "observations": null,
+          "x": 3318,
+          "y": 2568.10009765625,
+          "w": 1452.31884765625,
+          "h": 629.89990234375
+        }
+      ],
+      "minTextHeightMasterPx": 18,
+      "placeholders": [],
+      "githubVisible": true,
+      "fonts": [
+        "\"Comic Sans MS\"",
+        "\"Comic Sans MS\", \"Comic Sans\", cursive"
+      ],
+      "missingApprovedCopy": []
+    },
+    {
+      "media": "print",
+      "pageCss": {
+        "x": 0,
+        "y": 0,
+        "width": 4493.84375,
+        "height": 3261.65625,
+        "top": 0,
+        "right": 4493.84375,
+        "bottom": 3261.65625,
+        "left": 0
+      },
+      "textCount": 439,
+      "outside": [],
+      "textOverlaps": [],
+      "photoOverlaps": [],
+      "photos": [
+        {
+          "id": "warehouse_stock",
+          "embedded": true,
+          "x": 60.003366557677865,
+          "y": 1580.999935328102,
+          "w": 494.99929808488,
+          "h": 320.0000538932482
+        },
+        {
+          "id": "last_mile_delivery",
+          "embedded": true,
+          "x": 595.002594695521,
+          "y": 1580.999935328102,
+          "w": 494.99936545134665,
+          "h": 320.0000538932482
+        },
+        {
+          "id": "online_payment",
+          "embedded": true,
+          "x": 60.003366557677865,
+          "y": 2015.9999622747262,
+          "w": 494.99929808488,
+          "h": 319.9999191601276
+        },
+        {
+          "id": "order_processing",
+          "embedded": true,
+          "x": 595.002594695521,
+          "y": 2015.9999622747262,
+          "w": 494.99936545134665,
+          "h": 319.9999191601276
+        }
+      ],
+      "links": [
+        "https://fms.mofcom.gov.cn/xxfb/art/2025/art_3aeb2e47113845bdb16dcb053e5f6e9d.html",
+        "https://www.aof.org.hk/docs/default-source/hkimr/conference-workshop/panel-2_1_irina-fan.pdf",
+        "https://doi.org/10.1057/s41599-026-07267-z",
+        "https://unctad.org/system/files/official-document/dtlecde2024d3_en.pdf",
+        "https://www.pexels.com/photo/male-employee-through-a-shelf-6170414/",
+        "https://www.pexels.com/photo/delivery-man-going-out-from-a-van-6169135/",
+        "https://www.pexels.com/photo/online-shopping-with-credit-card-and-laptop-29205862/",
+        "https://www.pexels.com/photo/men-working-at-a-courier-service-6169653/",
+        "https://fms.mofcom.gov.cn/xxfb/art/2025/art_3aeb2e47113845bdb16dcb053e5f6e9d.html",
+        "https://www.aof.org.hk/docs/default-source/hkimr/conference-workshop/panel-2_1_irina-fan.pdf",
+        "https://www.ipc.be/news-portal/general-news/2024/01/11/12/46/ipc-cross-border-e-commerce-shopper-survey-shows-more-positive-mindset-among-online-consumers",
+        "https://doi.org/10.1057/s41599-026-07267-z",
+        "https://unctad.org/system/files/official-document/dtlecde2024d3_en.pdf",
+        "https://github.com/hansu650/ice-week1-ecommerce-poster",
+        "https://github.com/hansu650/ice-week1-ecommerce-poster"
+      ],
+      "modules": [
+        {
+          "id": "trade",
+          "x": 1150.00190364596,
+          "y": 430.00001347331204,
+          "w": 1839.997279263993,
+          "h": 1015.9325283478486
+        },
+        {
+          "id": "consumer",
+          "x": 1150.00190364596,
+          "y": 1504.9999461067516,
+          "w": 1839.997279263993,
+          "h": 1015.9327304475295
+        },
+        {
+          "id": "rcep",
+          "x": 3029.999235064637,
+          "y": 430.00001347331204,
+          "w": 1839.9975487298595,
+          "h": 1015.9325283478486
+        },
+        {
+          "id": "global",
+          "x": 3029.999235064637,
+          "y": 1504.9999461067516,
+          "w": 1839.9975487298595,
+          "h": 1015.9327304475295
+        },
+        {
+          "id": "advanced_trade_mix",
+          "x": 78.00333697619313,
+          "y": 2568.100047426058,
+          "w": 1493.6254502687705,
+          "h": 665.6258083987237
+        },
+        {
+          "id": "advanced_growth_waterfall",
+          "x": 1698.0010283165163,
+          "y": 2568.100047426058,
+          "w": 1488.917342649319,
+          "h": 629.6259269638699
+        },
+        {
+          "id": "advanced_rcep_opportunity",
+          "x": 3317.998963860281,
+          "y": 2568.100047426058,
+          "w": 1452.417786833376,
+          "h": 629.6259269638699
+        }
+      ],
+      "charts": [
+        {
+          "id": "china_trade",
+          "observations": 7,
+          "x": 1150.00190364596,
+          "y": 430.00001347331204,
+          "w": 1839.997279263993,
+          "h": 927.9310516728464
+        },
+        {
+          "id": "china_origin",
+          "observations": 8,
+          "x": 1150.00190364596,
+          "y": 1504.9999461067516,
+          "w": 1839.997279263993,
+          "h": 927.9312537725273
+        },
+        {
+          "id": "rcep_heatmap",
+          "observations": 110,
+          "x": 3029.999235064637,
+          "y": 430.00001347331204,
+          "w": 1839.9975487298595,
+          "h": 927.9310516728464
+        },
+        {
+          "id": "business_sales",
+          "observations": 2,
+          "x": 3029.999235064637,
+          "y": 1504.9999461067516,
+          "w": 1839.9975487298595,
+          "h": 927.9312537725273
+        },
+        {
+          "id": "platform_sales",
+          "observations": 2,
+          "x": 3087.10255523181,
+          "y": 2203.096167112184,
+          "w": 964.7915464211457,
+          "h": 234.07777873587995
+        },
+        {
+          "id": "trade_mix",
+          "observations": null,
+          "x": 78.00333697619313,
+          "y": 2568.100047426058,
+          "w": 1493.6254502687705,
+          "h": 665.6258083987237
+        },
+        {
+          "id": "growth_waterfall",
+          "observations": null,
+          "x": 1698.0010283165163,
+          "y": 2568.100047426058,
+          "w": 1488.917342649319,
+          "h": 629.6259269638699
+        },
+        {
+          "id": "rcep_opportunity",
+          "observations": null,
+          "x": 3317.998963860281,
+          "y": 2568.100047426058,
+          "w": 1452.417786833376,
+          "h": 629.6259269638699
+        }
+      ],
+      "minTextHeightMasterPx": 17.660009054065707,
+      "placeholders": [],
+      "githubVisible": true,
+      "fonts": [
+        "\"Comic Sans MS\"",
+        "\"Comic Sans MS\", \"Comic Sans\", cursive"
+      ],
+      "missingApprovedCopy": []
+    }
+  ]
+}

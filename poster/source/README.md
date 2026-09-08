@@ -1,37 +1,14 @@
-# Poster source notes
+# Poster source
 
-This directory preserves the final integration and QR logic:
+The current assembly source is [build_text_expansion_20260908.mjs](build_text_expansion_20260908.mjs), with [POSTER_COPY.json](POSTER_COPY.json) and the [eight-point IPC input](data/ipc_purchase_origins_2016_2023.csv).
 
-- `build_w1_story_poster_4960.mjs` — composes the four-stage poster, exports SVG/PDF/previews, and writes the project manifest/validation;
-- `generate_github_qr.py` — creates the repository QR as SVG and PNG, then decodes the PNG locally;
-- `verify_github_qr.py` — verifies the QR in standalone and final-render contexts;
-- `package.json` — Playwright dependency for the poster renderer;
-- `requirements-qr.txt` — Python dependencies for QR generation/decoding.
+The committed [SVG](../final/W1_Poster_Revised.svg) and [HTML](../final/poster.html) are self-contained for viewing and editing. The assembly script additionally requires the original Week 1 source tree, including licensed photos, logo artwork and the earlier team mini-figure sources; those inputs are not all duplicated here.
 
-## Rebuild boundary
+Set:
+- `POSTER_SOURCE_ROOT`: the original Week 1 (9-1) source directory.
+- `POSTER_OUTPUT_DIR`: optional output directory; defaults to `rendered` beside the script.
+- `POSTER_BROWSER_EXECUTABLE`: optional browser executable; otherwise Playwright's installed Chromium is used.
 
-The committed Final SVG is self-contained, but the assembly script also expects the original team working tree containing extracted member SVGs, source photographs, and review assets. Those files are not all duplicated here because the repository preserves contributor ZIPs and excludes private/full-resolution process material.
+The original Comic Sans MS font must be available for matching layout. Install the declared Node dependencies, then run `npm run build`. A rebuild with different fonts or browser versions is not expected to reproduce the committed PDF bytes exactly.
 
-Set these optional environment variables when rebuilding:
-
-- `POSTER_SOURCE_ROOT` — root of the original Week 1 working tree;
-- `POSTER_OUTPUT_DIR` — output directory; defaults to `poster/final`;
-- `POSTER_BROWSER_EXECUTABLE` — browser executable when Playwright’s bundled Chromium is not used;
-- `POSTER_QR_SVG` — QR SVG override; defaults to `poster/assets/qr/github_repo_qr.svg`.
-
-Install the renderer dependency:
-
-```bash
-cd poster/source
-npm install
-```
-
-Generate the QR and then build:
-
-```bash
-python -m pip install -r requirements-qr.txt
-python generate_github_qr.py
-node build_w1_story_poster_4960.mjs
-```
-
-The public copy of the builder removes machine-specific user paths. A successful rebuild still requires the original source tree and licensed/private assets described above.
+[build_w1_story_poster_4960.mjs](build_w1_story_poster_4960.mjs), [generate_github_qr.py](generate_github_qr.py) and [verify_github_qr.py](verify_github_qr.py) preserve the historical assembly/QR workflow. Use `npm run build:historical` only when intentionally rebuilding that earlier design.

@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-09-08T07:03:39.551404+00:00",
+  "scope": "Public standalone-poster projection of the local final-artifact verification",
+  "poster_sha256": "152a0d5b163b25dcc136eb70ec9d90a78f494d7f1c24df1b4060b70c7878b758",
+  "poster_size_bytes": 4520837,
+  "poster_pages": 1,
+  "poster_page_points": [
+    3370.0798,
+    2446.0798
+  ],
+  "charts": 8,
+  "photos": 4,
+  "explanatory_words": {
+    "previous": 656,
+    "current": 1096,
+    "count_rule": "Whitespace-separated words in prose paragraphs, excluding source/reference/caption blocks and chart labels"
+  },
+  "approved_prose_preserved": true,
+  "photo_and_link_checks": {
+    "four_original_JPEG_payloads_preserved": true,
+    "removed_photos_absent": true,
+    "link_count": 15,
+    "links": [
+      {
+        "uri": "https://fms.mofcom.gov.cn/xxfb/art/2025/art_3aeb2e47113845bdb16dcb053e5f6e9d.html",
+        "rect": [
+          816.47083,
+          1463.52942,
+          1966.5326,
+          1500.71509
+        ]
+      },
+      {
+        "uri": "https://www.aof.org.hk/docs/default-source/hkimr/conference-workshop/panel-2_1_irina-fan.pdf",
+        "rect": [
+          816.47083,
+          733.05432,
+          1977.3112,
+          770.23999
+        ]
+      },
+      {
+        "uri": "https://doi.org/10.1057/s41599-026-07267-z",
+        "rect": [
+          2093.9529,
+          1463.52942,
+          3260.1824,
+          1500.71509
+        ]
+      },
+      {
+        "uri": "https://unctad.org/system/files/official-document/dtlecde2024d3_en.pdf",
+        "rect": [
+          2093.9529,
+          733.05432,
+          3251.5598,
+          770.23999
+        ]
+      },
+      {
+        "uri": "https://www.pexels.com/photo/male-employee-through-a-shelf-6170414/",
+        "rect": [
+          1318.255,
+          97.007813,
+          1374.65454,
+          117.393066
+        ]
+      },
+      {
+        "uri": "https://www.pexels.com/photo/delivery-man-going-out-from-a-van-6169135/",
+        "rect": [
+          1437.16968,
+          97.007813,
+          1493.56909,
+          117.393066
+        ]
+      },
+      {
+        "uri": "https://www.pexels.com/photo/online-shopping-with-credit-card-and-laptop-29205862/",
+        "rect": [
+          1556.08411,
+          97.007813,
+          1626.07385,
+          117.393066
+        ]
+      },
+      {
+        "uri": "https://www.pexels.com/photo/men-working-at-a-courier-service-6169653/",
+        "rect": [
+          1674.99866,
+          97.007813,
+          1733.4368,
+          117.393066
+        ]
+      },
+      {
+        "uri": "https://fms.mofcom.gov.cn/xxfb/art/2025/art_3aeb2e47113845bdb16dcb053e5f6e9d.html",
+        "rect": [
+          44.170605,
+          74.583984,
+          682.91162,
+          94.969238
+        ]
+      },
+      {
+        "uri": "https://www.aof.org.hk/docs/default-source/hkimr/conference-workshop/panel-2_1_irina-fan.pdf",
+        "rect": [
+          44.170605,
+          30.415771,
+          723.68231,
+          50.801025
+        ]
+      },
+      {
+        "uri": "https://www.ipc.be/news-portal/general-news/2024/01/11/12/46/ipc-cross-border-e-commerce-shopper-survey-shows-more-positive-mindset-among-online-consumers",
+        "rect": [
+          1151.77478,
+          74.583984,
+          1937.9697,
+          94.969238
+        ]
+      },
+      {
+        "uri": "https://doi.org/10.1057/s41599-026-07267-z",
+        "rect": [
+          1151.77478,
+          24.300049,
+          2024.9473,
+          64.391357
+        ]
+      },
+      {
+        "uri": "https://unctad.org/system/files/official-document/dtlecde2024d3_en.pdf",
+        "rect": [
+          2259.3787,
+          54.878174,
+          2986.4563,
+          94.969238
+        ]
+      },
+      {
+        "uri": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+        "rect": [
+          2259.3787,
+          7.9919434,
+          2640.585,
+          27.018066
+        ]
+      },
+      {
+        "uri": "https://github.com/hansu650/ice-week1-ecommerce-poster",
+        "rect": [
+          3177.3992,
+          10.0305176,
+          3277.9668,
+          110.598145
+        ]
+      }
+    ]
+  },
+  "vector_inspection": {
+    "status": "PASS",
+    "basis": "Fresh final reviewer inspected PDF objects: extractable text and vector paths remain; the four original JPEG streams are byte-identical.",
+    "acceptance_status": "same-family provisional"
+  }
+}

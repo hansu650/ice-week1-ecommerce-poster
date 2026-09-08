@@ -84,8 +84,8 @@ def _validate_ipc(processed_dir: Path) -> int:
     rows = _read_csv(processed_dir / "ipc_purchase_source_china_2016_2023.csv", IPC_FIELDS)
     years = [int(row["year"]) for row in rows]
     shares = [float(row["share_percent"]) for row in rows]
-    if years != [2016, 2023] or shares != [26.0, 37.0]:
-        raise DataValidationError(f"IPC must contain only 2016=26 and 2023=37, got {list(zip(years, shares))}")
+    if years != list(range(2016, 2024)) or shares != [26.0, 33.0, 36.0, 36.0, 34.0, 31.0, 30.0, 37.0]:
+        raise DataValidationError(f"IPC must match all eight published observations, got {list(zip(years, shares))}")
     if any(not 0 <= share <= 100 for share in shares):
         raise DataValidationError("IPC percentage outside 0-100")
     if any(row["measure"] != IPC_MEASURE for row in rows):
@@ -140,6 +140,10 @@ def validate_processed_dir(processed_dir: Path = DEFAULT_PROCESSED_DIR) -> None:
         raise DataValidationError("China unit must be explicit: RMB 100 million")
     if ipc_summary.get("change_percentage_points_2016_2023") != ipc_change:
         raise DataValidationError("IPC change must be computed as +11 percentage points")
+    if (ipc_summary.get("observed_years") != 8
+            or ipc_summary.get("change_percentage_points_2019_2022") != -6
+            or ipc_summary.get("change_percentage_points_2022_2023") != 7):
+        raise DataValidationError("IPC summary must retain the published decline and rebound")
     if ipc_summary.get("not_sales_market_share") is not True:
         raise DataValidationError("IPC summary must warn that this is not a sales market share")
     if unctad_summary.get("coverage_economies") != 43:

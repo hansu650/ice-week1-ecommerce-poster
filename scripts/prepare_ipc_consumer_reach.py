@@ -1,4 +1,4 @@
-"""Prepare the two observed IPC consumer-reach endpoints without interpolation."""
+"""Prepare the eight published IPC purchase-origin observations without interpolation."""
 
 from __future__ import annotations
 
@@ -17,7 +17,7 @@ MEASURE_DEFINITION = "Share of surveyed cross-border shoppers whose latest purch
 
 
 def prepare(input_path: Path = DEFAULT_INPUT, output_path: Path = DEFAULT_OUTPUT) -> dict[str, float | int | str]:
-    """Validate the two real observations and write a normalized endpoint file."""
+    """Validate the published 2016-2023 series and write normalized observations."""
     with input_path.open("r", encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle)
         if reader.fieldnames != FIELDNAMES:
@@ -25,8 +25,8 @@ def prepare(input_path: Path = DEFAULT_INPUT, output_path: Path = DEFAULT_OUTPUT
         rows = [{key: (value or "").strip() for key, value in row.items()} for row in reader]
 
     years = [int(row["year"]) for row in rows]
-    if years != [2016, 2023]:
-        raise ValueError(f"Only the observed 2016 and 2023 endpoints are allowed, got {years}")
+    if years != list(range(2016, 2024)):
+        raise ValueError(f"Expected all eight published years 2016-2023, got {years}")
 
     shares: list[Decimal] = []
     for row in rows:
@@ -41,8 +41,8 @@ def prepare(input_path: Path = DEFAULT_INPUT, output_path: Path = DEFAULT_OUTPUT
         row["measure"] = MEASURE_DEFINITION
         shares.append(share)
 
-    if shares != [Decimal("26"), Decimal("37")]:
-        raise ValueError(f"Expected IPC endpoints 26% and 37%, got {shares}")
+    if shares != [Decimal(str(value)) for value in (26, 33, 36, 36, 34, 31, 30, 37)]:
+        raise ValueError(f"IPC shares differ from the eight published observations: {shares}")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8", newline="") as handle:
@@ -53,7 +53,9 @@ def prepare(input_path: Path = DEFAULT_INPUT, output_path: Path = DEFAULT_OUTPUT
     return {
         "measure_definition": MEASURE_DEFINITION,
         "change_percentage_points_2016_2023": int(shares[-1] - shares[0]),
-        "trend_sample_2023": 23005,
+        "observed_years": 8,
+        "change_percentage_points_2019_2022": int(shares[6] - shares[3]),
+        "change_percentage_points_2022_2023": int(shares[7] - shares[6]),
         "full_survey_sample_2023": 32510,
         "full_survey_markets_2023": 41,
         "trend_economies": 24,

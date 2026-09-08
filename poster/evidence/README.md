@@ -1,12 +1,12 @@
-# Poster evidence records
+# Current poster evidence
 
-This directory keeps the machine-readable records produced alongside the final poster.
+- [manifest.json](manifest.json): current artifacts, hashes, eight chart identifiers, four photos, modules and data provenance.
+- [layout_validation.json](layout_validation.json): actual screen and print measurements bound to the current HTML hash.
+- [artifact_validation.json](artifact_validation.json): public standalone-poster portion of the completed local PDF checks.
+- [qr_metadata.json](qr_metadata.json): unchanged original QR asset and its standalone decode record.
+- [qr_verification.json](qr_verification.json): current pixel-identity continuity record; no new decode claimed.
+- [review_summary.md](review_summary.md): public summary of the fresh final review.
 
-| Record | Scope |
-|---|---|
-| [`manifest.json`](manifest.json) | Poster identity, canvas, narrative, reused modules, data, photographs, references, and QR target |
-| [`validation.json`](validation.json) | 35 project-specific geometry, content, provenance, and export checks |
-| [`qr_metadata.json`](qr_metadata.json) | QR payload, version, correction level, quiet zone, and standalone hash/decode record |
-| [`qr_verification.json`](qr_verification.json) | Four decode contexts taken from the standalone QR and final poster/PDF renders |
+The course-specific checks pass. The generic conference-paper gate suite is not represented as passed. The 35-check/four-decode records for the earlier poster remain under [the dated archive](../history/2026-09-03/evidence/).
 
-These records support auditability; they do not turn project-specific checks into an external certification. A separate generic academic-poster gate was only partially applicable during local review because its asset contract expected `img[data-source=paper]`, whereas this poster integrates nested SVG modules. Browser-dependent checks were unavailable in that run. The repository therefore reports the applicable checks precisely instead of claiming that every external gate passed.
+Repository CI verifies artifact/checksum binding, SVG content and photo payloads, documented layout results, approved copy, links and QR path continuity. It does not rerun the original GUI visual review or claim a new QR decode.
